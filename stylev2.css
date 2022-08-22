@@ -30,6 +30,7 @@ body {
 
 /* Intro Section */
 .intro-section {
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,6 +230,9 @@ img {
     .intro {
         display: flex;
         align-items: center;
+    }
+    .intro-section {
+        margin-bottom: unset;
     }
     .intro-text {
         font-size: 2.85rem;
