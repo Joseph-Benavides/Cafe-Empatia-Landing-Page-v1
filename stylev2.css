@@ -236,7 +236,7 @@ img {
     }
     .intro-text {
         font-size: 2.85rem;
-        margin: 0.5em 1.5em;
+        margin: 0.5em 0.5em;
     }       
     .cover-img-section {
         margin-bottom: unset;
@@ -250,5 +250,11 @@ img {
     .cover-img-section p {
         font-size: 1.3rem;
         /* margin: 0.125em 4.25em; */
+    }
+}
+
+@media (min-width: 850px) {
+    .intro-text {
+        margin: 0.5em 1.5em;
     }
 }
